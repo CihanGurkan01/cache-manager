@@ -2,12 +2,12 @@ package com.cihangurkan.cache.concrete;
 
 import java.util.List;
 
+import com.cihangurkan.common.BeanManager;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.cihangurkan.cache.common.CacheMethodInfo;
 import com.cihangurkan.cache.utilities.CacheCommonUtil;
-import com.cihangurkan.common.BeanManager;
 
 public class CacheMainThread extends Thread {
 

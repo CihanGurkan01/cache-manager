@@ -4,6 +4,7 @@ import java.util.List;
 
 import javax.annotation.PostConstruct;
 
+import com.cihangurkan.common.BeanManager;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.stereotype.Component;
@@ -13,7 +14,6 @@ import com.cihangurkan.cache.common.CacheMethodInfo;
 import com.cihangurkan.cache.concrete.CacheEventListener;
 import com.cihangurkan.cache.concrete.CacheMainThread;
 import com.cihangurkan.cache.util.CacheUtil;
-import com.cihangurkan.common.BeanManager;
 
 @Component
 @EnableScheduling
